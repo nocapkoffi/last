@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background-image: url(pics/12.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+    padding: 10px 10px;
+    height: 300px;
+    width: 300px;
+    background-color: transparent;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.account{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 30px;
+    height: 30px;
+    width: 100%;
+
+
+}
+.username , .password{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+    border: solid;
+    border-radius: 20px;
+    text-align: justify;
+    background-color: transparent;
+}
+.username::placeholder, .password::placeholder{
+    color: white;
+}
+
+
+
+.q{
+    margin-bottom: 20px;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    border-radius: 30px ;
+}
+
+
+b a{
+    text-decoration: none;
+    margin-left: 60px;
+    color: white;
+    counter-increment: 40px;
+}
+
+span{
+    color: white;
+}
